@@ -1,29 +1,52 @@
+@charset "UTF-8";
+
 * {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
     background-color: #232323;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    border-radius: 20px;
 }
 
-
-h1 {
+header {
     background-color: #2a2a2a;
-    padding: 5px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 6px #00000013;
 }
+
+header h1 {
+    background-color: transparent;
+    padding-top: 45px;
+}
+
+/* main {
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+} */
 
 img {
     width: 300px;
     margin: 5px;
+    border-radius: 15px;
 }
 
 img:hover {
-    transition: 0.3s;
+    transition: .2s;
     transform: scale(105%);
 }
+
 iframe {
     width: 540px;
     height: 300px;
+    border-radius: 15px;
 }
 
 .button {

@@ -1,0 +1,68 @@
+* {
+    background-color: #232323;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+h1 {
+    background-color: #2a2a2a;
+    padding: 5px;
+}
+
+img {
+    width: 300px;
+    margin: 5px;
+}
+
+img:hover {
+    transition: 0.3s;
+    transform: scale(105%);
+}
+iframe {
+    width: 540px;
+    height: 300px;
+}
+
+.button {
+    width: 100px;
+}
+
+.par {
+    margin-bottom: -15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.aop {
+    color: rgb(85, 105, 192);
+}
+
+.osnf {
+    color: rgb(145, 167, 50);
+}
+
+.opd {
+    color: rgb(194, 60, 60);
+}
+
+.opc {
+    color: rgb(231, 231, 94);
+}
+
+.osni {
+    color: rgb(111, 184, 133);
+}
+
+.sdol {
+    color: rgb(69, 255, 69);
+}
